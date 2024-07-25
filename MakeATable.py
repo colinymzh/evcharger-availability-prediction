@@ -7,8 +7,8 @@ import urllib.parse
 db_config = {
     'host': 'localhost',
     'user': 'root',
-    'password': '123456',
-    'database': 'db_evcharger'
+    'password': 'password',
+    'database': 'db_evcharger_0707'
 }
 
 # 创建数据库 URL（对密码进行 URL 编码以处理特殊字符）

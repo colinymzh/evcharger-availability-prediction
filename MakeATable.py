@@ -62,11 +62,9 @@ try:
     ]
     df = df[columns_order]
 
-    # 生成当前时间戳
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
 
     # 创建 CSV 文件名
-    csv_filename = f'charging_station_data_{timestamp}.csv'
+    csv_filename = f'charging_station_data.csv'
 
     # 将数据保存为 CSV 文件
     df.to_csv(csv_filename, index=False)

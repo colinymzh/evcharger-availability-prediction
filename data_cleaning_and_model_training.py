@@ -115,7 +115,7 @@ print("\n The average of each group's tariff_amount:")
 print(df.groupby(['max_chargerate', 'plug_type', 'connector_type'])['tariff_amount'].mean())
 
 # Check the number of null values ​​in the tariff_connectionfee column
-print("\ntariff_connectionfee 列的空值数量(填充前):")
+print("\nNumber of empty values ​​in tariff_connectionfee column (before filling):")
 print(df['tariff_connectionfee'].isnull().sum())
 
 # Fill empty values ​​in the tariff_connectionfee column with 0
